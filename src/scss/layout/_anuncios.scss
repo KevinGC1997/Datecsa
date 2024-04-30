@@ -1,0 +1,32 @@
+
+
+@include tablet {
+    .contenedor-yumbo {
+        @include grid(4, 2rem)
+    }
+}
+
+.yumbo {
+    background-color: lighten($gris, 5);
+    border: 1px solid darken($gris, 10);
+
+    .contenido-yumbo {
+        padding: 1rem;
+    }
+
+    h3, p {
+        margin: 0;
+        font-size: 2.5rem;
+        text-align: center;
+        white-space: nowrap;
+        
+    }
+
+       
+    .correo {
+        color: $verde;
+        font-weight: $bold;
+        font-size: 1.5rem;
+    }
+}
+
