@@ -14,6 +14,35 @@
     background-image: url(../img/Medellin.webp);
 }
 
+.no-webp .Pereira {
+    background-image: url(../img/Pereira.jpg);
+}
+
+.webp .Pereira {
+    background-image: url(../img/Pereira.webp);
+}
+.no-webp .Barranquilla {
+    background-image: url(../img/Barranquilla.jpg);
+}
+
+.webp .Barranquilla {
+    background-image: url(../img/Barranquilla.webp);
+}
+.no-webp .Bucaramanga {
+    background-image: url(../img/Bucaramanga.jpg);
+}
+
+.webp .Bucaramanga {
+    background-image: url(../img/Bucaramanga.webp);
+}
+.no-webp .Manizales {
+    background-image: url(../img/Manizales.JPG);
+}
+
+.webp .Manizales {
+    background-image: url(../img/Manizales.webp);
+}
+
 
 .header {
     background-color: $grisOscuro;
@@ -48,6 +77,32 @@
             line-height: 2;
             max-width: 60rem;
         }
+
+       
+    }
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .custom-select, .btn-primary {
+        margin: 0 10px; 
+    }
+    
+    .custom-select, .btn-primary {
+        text-align: center;
+    }
+    
+    
+    .btn-primary {
+        margin-top: 10px; 
     }
 
 }
