@@ -102,6 +102,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
     });
 });
 
-console.log('hola');
+console.log('hola mundo');
 
 
