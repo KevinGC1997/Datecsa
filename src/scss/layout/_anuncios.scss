@@ -2,8 +2,7 @@
 
 @include tablet {
     .contenedor-yumbo {
-        @include grid(4, 2rem);
-       
+        @include grid(4, 2rem); 
 
     }
 
@@ -43,7 +42,7 @@
         text-align: center;
         white-space: nowrap; /* Evita que el texto se desborde */
         overflow: hidden;
-        text-overflow: ellipsis; /* Agrega puntos suspensivos si el texto es muy largo */
+        
     }
   
     .correo {
